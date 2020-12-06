@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AstralGnome/Dynamic-ReadMe-Generator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "inquirer-select-line": "^1.1.3"
   }
 }
