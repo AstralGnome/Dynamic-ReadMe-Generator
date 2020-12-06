@@ -3,7 +3,7 @@ inquirer.registerPrompt('selectLine', require('inquirer-select-line'));
 
 const fs = require("fs");
 
-const licensing = require("./utils/licenses")
+const licensing = require("./licensing/licenses")
 const genMarkdown = require("./utils/generateMarkdown");
 
 
