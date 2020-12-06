@@ -28,18 +28,14 @@ function init() {
         message: "",
       },
       {
-        type: "selectLine",
+        type: "list",
         name: "tableCont",
-        message: "Insert your heading",
-        choices: [
-          "Table of Contents",
-          "Installation Instructions",
-          "Usage Information",
-          "License",
-          "Contributors",
-          "Testing Instructions",
-        ],
-        placeholder: "Customized Heading",
+        message:
+          "Table of Contents Installation Instructions
+          Usage Information
+          License
+          Contributors
+          Testing Instructions"
       },
       {
         type: "input",
