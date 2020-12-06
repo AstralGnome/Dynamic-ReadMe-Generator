@@ -10,16 +10,14 @@ function generateMarkdown(data) {
   ${licBadge}
   ## Table of Contents
   [Description](#Description)
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [License](#License)
-  [Contributing](#Contributing)
-  [Tests](#Tests)
+  [Installation](#Installation Instructions)
+  [Usage](#Usage Information)
+  [Contributing](#Contribution Guidelines)
+  [Tests](#Test Instructions)
   [Questions](#Questions)
+  [License](#License)
 
 ## ${data.description}
-
-## ${data.tableCont}
 
 ## ${data.installInst}
 
@@ -33,7 +31,9 @@ function generateMarkdown(data) {
 
 ## ${data.questions}
 
-## ${data.favColor}
+## ${data.username}
+
+## ${data.email}
 
 `;
 }

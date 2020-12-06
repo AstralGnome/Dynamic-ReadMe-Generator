@@ -20,37 +20,28 @@ function init() {
       {
         type: "input",
         name: "title",
-        message: "Title your project.",
+        message: "What is the title of your project?",
       },
       {
         type: "input",
         name: "description",
-        message: "",
-      },
-      {
-        type: "list",
-        name: "tableCont",
-        message:
-          "Table of Contents Installation Instructions
-          Usage Information
-          License
-          Contributors
-          Testing Instructions"
+        message: "Provide a compelling description of you project.",
       },
       {
         type: "input",
         name: "installInst",
-        message: "Installation instructions.",
+        message: "Enter the installation instructions.",
       },
       {
         type: "input",
         name: "usageInfo",
-        message: "Usage guidelines.",
+        message: "Define Usage guidelines.",
       },
       {
-        type: "input",
+        type: "checkbox",
         name: "license",
-        message: "Add a license.",
+        message: "Choose a license.",
+        choices: ["MIT", "Apache", "BSD",]
       },
       {
         type: "input",
@@ -66,6 +57,16 @@ function init() {
         type: "input",
         name: "questions",
         message: "Any questions?",
+      },
+      {
+        type: "input",
+        name: "username",
+        message: "What is your GitHub username?",
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "What is you email address?",
       },
       //I would like to use the checkbox and selectline in the future to make a more awesomely dynamic program
       // {
