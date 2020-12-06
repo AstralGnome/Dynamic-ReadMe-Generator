@@ -5,36 +5,37 @@ function generateMarkdown(data) {
   let licBadge
   let licDesc
 
-  return `# ${data.title}
+  return `# ${data.title} ${licBadge}
 
-  ${licBadge}
+  ## Description
+  ####${data.description}
+  
   ## Table of Contents
-  [Description](#Description)
-  [Installation](#Installation Instructions)
+  [Installation](#Installation)
   [Usage](#Usage Information)
-  [Contributing](#Contribution Guidelines)
-  [Tests](#Test Instructions)
+  [Contributing](#Contributing)
+  [Tests](#Tests)
   [Questions](#Questions)
   [License](#License)
 
-## ${data.description}
+## Installation 
+${data.installInst}
 
-## ${data.installInst}
+## Usage
+${data.usageInfo}
 
-## ${data.usageInfo}
+## Contributing
+${data.contribGuide}
 
-## ${data.license}
+## Tests
+${data.testInst}
 
-## ${data.contribGuide}
+## Questions
+${data.username}
+${data.email}
 
-## ${data.testInst}
-
-## ${data.questions}
-
-## ${data.username}
-
-## ${data.email}
-
+## License
+${data.license}
 `;
 }
 

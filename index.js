@@ -55,11 +55,6 @@ function init() {
       },
       {
         type: "input",
-        name: "questions",
-        message: "Any questions?",
-      },
-      {
-        type: "input",
         name: "username",
         message: "What is your GitHub username?",
       },
