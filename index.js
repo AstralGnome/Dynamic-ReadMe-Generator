@@ -38,10 +38,10 @@ function init() {
         message: "Define Usage guidelines.",
       },
       {
-        type: "checkbox",
+        type: "rawlist",
         name: "license",
         message: "Choose a license.",
-        choices: ["MIT", "Apache", "BSD",]
+        choices: ["MIT", "Apache", "BSD"]
       },
       {
         type: "input",
