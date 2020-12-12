@@ -1,8 +1,8 @@
-# asdf  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Being Awesome!
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-asdf
+Looks Great!
   
 ## Table of Contents
 * [Installation](#Installation)
@@ -13,20 +13,20 @@ asdf
 * [License](#License)
 
 ## Installation 
-asdf
+Do a good job!
 
 ## Usage
-asdf
+Try your hardest!
 
 ## Contributing
-asdf
+Me and my friends!
 
 ## Tests
-asdf
+Try very hard!
 
 ## Questions
-asdf
-asdf
+Username: AstralGnome
+Email: reedkeenan@gmail.com
 
 ## License
-MIT
+Apache

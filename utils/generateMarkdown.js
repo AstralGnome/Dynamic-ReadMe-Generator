@@ -46,8 +46,8 @@ ${data.contribGuide}
 ${data.testInst}
 
 ## Questions
-${data.username}
-${data.email}
+Username: ${data.username}
+Email: ${data.email}
 
 ## License
 ${data.license}
